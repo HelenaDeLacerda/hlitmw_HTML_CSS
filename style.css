@@ -1,0 +1,1345 @@
+body
+{
+    background-image: url(imagens/history-in-hd-e5eDHbmHprg-unsplash.jpg);
+    background-size: cover;
+    background-color: black;
+    background-repeat: no-repeat, repeat-x;
+    background-position: center;
+    margin: auto 0;
+    font-family: 'EB Garamond', serif;
+    color: antiquewhite;
+    font-size: 20px;
+}
+
+
+
+/*// Small devices (landscape phones, 300px and up) */
+@media (min-width: 320px) 
+{
+    .titulo
+    {
+        font-size: 30px;
+        text-transform: uppercase;
+        position: relative;
+        margin: 1px;
+        float: left;
+    }
+
+    .sub_titulo
+    {
+        font-size: 15px;
+        text-transform: uppercase;
+        position: relative;
+    }
+
+    #c_imagem
+    {
+        width: 100%;
+        height: 400px;
+    }
+
+    #borda
+    {
+        width: 350px;
+        height: 100px;
+    }
+
+    ul
+    {
+        text-decoration: none;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    #principal
+    {
+        width: 320px;
+        height: auto;
+        margin: 0 auto;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    #topo
+    {
+        width: 100%;
+        height: 200px;
+        position: fixed;
+    }
+
+    /* Colocar como link */
+    #logo
+    {
+        width: 150px;
+        height: 170px;
+        padding-top: 20px;
+        padding-left: 0;
+        float: left;
+    }
+
+    #menu_navegacao
+    {
+        width: 100%;
+        height: 153,6px;
+        display: table-cell;
+        vertical-align: middle;
+    }
+
+    #lista_menu_navegacao
+    {
+        width: 200px;	
+        display: block;
+        text-transform: uppercase;
+        font-weight: bold;
+        flex-wrap: wrap;
+        padding-left: 0;
+        padding-top: 65px;
+    }
+
+    #lista_menu_navegacao li
+    {
+        font-size: 11px;
+        margin-left: 20px; 
+    }  
+
+    .link_menu
+    {
+        text-decoration: none;
+        color: antiquewhite;
+        text-align: center;
+        position: relative;
+    }
+
+   
+    .link_menu::after
+    {
+        top: 22px;
+        background-color: antiquewhite;
+        content: "";
+        height: 3px;
+        width: 0%;
+        position: absolute;
+        left: 0;
+        transition: all 0.8s;
+    }
+
+    .link_menu:hover::after
+    {
+        width: 100%;
+    }
+
+
+    .link_menu:hover
+    {
+        color: rgb(117, 117, 117);
+    }
+
+
+    #section_inicio
+    {
+        width: 100%;
+        height: 500px;
+    }
+
+    #conteudo_body
+    {
+        width: 100%;
+        min-height: 950px;
+        padding: 10px;
+        background-color: rgba(0, 0, 0, 0.753);
+    }
+
+
+    #coluna_1
+    {
+        float: left;
+        padding-left: 5px;
+    } 
+
+    #coluna_2
+    {
+        float: left;
+        padding-left: 5px
+    } 
+
+    .coluna
+    {
+        min-height: 300px;
+        width: 100%;
+        padding: 5px;
+        text-align: justify;
+    }
+
+    #rodape
+    {
+        width: 100%;
+        height: 100px;
+        background-color: black;
+    }
+
+    #rodape_navegacao
+    {
+        width: 400px;
+        height: 100px;
+        display: table-cell;
+        vertical-align: middle;
+        padding-right: 50px;
+    }
+
+    #lista_rodape_navegacao
+    {	
+        width: 400px;	
+        display: flex;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+
+    #lista_rodape_navegacao li
+    {
+        margin-left: 20px; 
+    }  
+
+    .link_rodape
+    {
+        color: antiquewhite;
+        text-align: center;
+    }
+
+    .link_rodape:hover
+    {
+        color: rgb(251, 255, 0);
+    }
+
+    #bt
+    {
+        float: right;
+    } 
+
+    .bt_saiba_mais
+    {
+            width: 110px;
+            height: 40px;
+            display: inline-block;
+            text-align: center;
+            line-height: 40px;
+            background-color: rgba(0, 0, 0, 0.692);
+            border-width: 0,1px;
+            border-style: solid;
+            border-color: antiquewhite;
+            color: white;
+            font-weight: normal;
+            margin-right: 5px;	
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*// Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) 
+{
+    .titulo
+    {
+        font-size: 50px;
+        text-transform: uppercase;
+        position: relative;
+        margin: 10px;
+        float: left;
+    }
+
+    .sub_titulo
+    {
+        font-size: 25px;
+        text-transform: uppercase;
+        position: relative;
+        margin: 10px;
+    }
+
+    #c_imagem
+    {
+        width: 100%;
+        height: 375px;
+    }
+
+    #borda
+    {
+        width: 200px;
+        height: 100px;
+    }
+
+    ul
+    {
+        text-decoration: none;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    #principal
+    {
+        width: 556px;
+        height: auto;
+        margin: 0 auto;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    #topo
+    {
+        width: 100%;
+        height: 200px;
+        position: fixed;
+    }
+
+    /* Colocar como link */
+    #logo
+    {
+        width: 150px;
+        height: 170px;
+        padding-top: 20px;
+        padding-left: 0;
+        float: left;
+    }
+
+    #menu_navegacao
+    {
+        width: 100%;
+        height: 153,6px;
+        display: table-cell;
+        vertical-align: middle;
+    }
+
+    #lista_menu_navegacao
+    {
+        width: 200px;	
+        display: flex;
+        text-transform: uppercase;
+        font-weight: bold;
+        flex-wrap: nowrap;
+        padding-left: 0;
+        padding-top: 85px;
+    }
+
+    #lista_menu_navegacao li
+    {
+        font-size: 11px;
+        margin-left: 20px; 
+    }  
+
+    .link_menu
+    {
+        text-decoration: none;
+        color: antiquewhite;
+        text-align: center;
+        position: relative;
+    }
+
+   
+    .link_menu::after
+    {
+        top: 22px;
+        background-color: antiquewhite;
+        content: "";
+        height: 3px;
+        width: 0%;
+        position: absolute;
+        left: 0;
+        transition: all 0.8s;
+    }
+
+    .link_menu:hover::after
+    {
+        width: 100%;
+    }
+
+
+    .link_menu:hover
+    {
+        color: antiquewhite;
+    }
+
+
+    #section_inicio
+    {
+        width: 100%;
+        height: 500px;
+    }
+
+    #conteudo_body
+    {
+        width: 570px;
+        min-height: 600px;
+        padding: 10px;
+        background-color: rgba(0, 0, 0, 0.753);
+    }
+
+    #coluna_1
+    {
+        float: none;
+        padding-left: 5px;
+    } 
+
+    #coluna_2
+    {
+        float: none;
+        padding-left: 5px
+    } 
+
+    .coluna
+    {
+        min-height: 300px;
+        width: 100%;
+        padding: 5px;
+        text-align: justify;
+    }
+
+    #rodape
+    {
+        width: 526px;
+        height: 40px;
+        background-color: rgba(0, 0, 0, 0.719);
+        padding: 30px;
+    }
+
+   #creditos
+   {
+        text-align: center;
+        min-height: auto;
+        float: left;
+   }
+
+   #ref
+   {
+        text-align: center;
+        float: right;
+   }
+
+    #bt
+    {
+        float: right;
+    } 
+
+    .bt_saiba_mais
+    {
+            width: 110px;
+            height: 40px;
+            display: inline-block;
+            text-align: center;
+            line-height: 40px;
+            background-color: rgba(0, 0, 0, 0.692);
+            border-width: 0,1px;
+            border-style: solid;
+            border-color: antiquewhite;
+            color: white;
+            font-weight: bold;
+            margin-right: 5px;	
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) 
+{
+
+    .titulo
+    {
+        font-size: 50px;
+        text-transform: uppercase;
+        position: relative;
+        margin: 1px;
+        float: left;
+    }
+
+    .sub_titulo
+    {
+        font-size: 25px;
+        text-transform: uppercase;
+        position: relative;
+    }
+
+    #c_imagem
+    {
+        width: 100%;
+        height: 375px;
+    }
+
+    #borda
+    {
+        width: 200px;
+        height: 100px;
+    }
+
+    ul
+    {
+        text-decoration: none;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    #principal
+    {
+        width: 768px;
+        height: auto;
+        margin: 0 auto;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    #topo
+    {
+        width: 100%;
+        height: 200px;
+        position: fixed;
+    }
+
+    /* Colocar como link */
+    #logo
+    {
+        width: 150px;
+        height: 170px;
+        padding-top: 20px;
+        padding-left: 0;
+        float: left;
+    }
+
+    #menu_navegacao
+    {
+        width: 100%;
+        height: 153,6px;
+        display: table-cell;
+        vertical-align: middle;
+    }
+
+    #lista_menu_navegacao
+    {
+        width: 200px;	
+        display: flex;
+        text-transform: uppercase;
+        font-weight: bold;
+        flex-wrap: nowrap;
+        padding-left: 0;
+        padding-top: 85px;
+    }
+
+    #lista_menu_navegacao li
+    {
+        font-size: 15px;
+        margin-left: 20px; 
+    }  
+
+    .link_menu
+    {
+        text-decoration: none;
+        color: antiquewhite;
+        text-align: center;
+        position: relative;
+    }
+
+   
+    .link_menu::after
+    {
+        top: 22px;
+        background-color: antiquewhite;
+        content: "";
+        height: 3px;
+        width: 0%;
+        position: absolute;
+        left: 0;
+        transition: all 0.8s;
+    }
+
+    .link_menu:hover::after
+    {
+        width: 100%;
+    }
+
+
+    .link_menu:hover
+    {
+        color: antiquewhite;
+    }
+
+
+    #section_inicio
+    {
+        width: 100%;
+        height: 500px;
+    }
+
+    #conteudo_body
+    {
+        width: 100%;
+        min-height: 710px;
+        padding: 10px;
+        background-color: rgba(0, 0, 0, 0.753);
+    }
+
+    #coluna_1
+    {
+        float: left;
+        padding-left: 5px;
+    } 
+
+    #coluna_2
+    {
+        float: right;
+        padding-left: 5px
+    } 
+
+    .coluna
+    {
+        min-height: 300px;
+        width: 48%;
+        padding: 5px;
+        text-align: justify;
+    }
+
+    #rodape
+    {
+        width: 718px;
+        height: 40px;
+        background-color: rgba(0, 0, 0, 0.719);
+        padding: 30px;
+    }
+
+   #creditos
+   {
+        text-align: center;
+        min-height: auto;
+        float: left;
+   }
+
+   #ref
+   {
+        text-align: center;
+        float: right;
+   }
+
+    #bt
+    {
+        float: right;
+    } 
+
+    .bt_saiba_mais
+    {
+            width: 140px;
+            height: 40px;
+            display: inline-block;
+            text-align: center;
+            line-height: 40px;
+            background-color: rgba(0, 0, 0, 0.692);
+            border-width: 0,1px;
+            border-style: solid;
+            border-color: antiquewhite;
+            color: white;
+            font-weight: bold;
+            margin-right: 5px;	
+    }
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) 
+{
+    .titulo
+    {
+        font-size: 50px;
+        text-transform: uppercase;
+        position: relative;
+        margin: 1px;
+        float: left;
+    }
+
+    .sub_titulo
+    {
+        font-size: 25px;
+        text-transform: uppercase;
+        position: relative;
+    }
+
+    #c_imagem
+    {
+        width: 100%;
+        height: 350px;
+    }
+
+    #borda
+    {
+        width: 200px;
+        height: 100px;
+    }
+
+    ul
+    {
+        text-decoration: none;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    #principal
+    {
+        width: 972px;
+        height: auto;
+        margin: 0 auto;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    #topo
+    {
+        width: 100%;
+        height: 200px;
+        position: fixed;
+    }
+
+    /* Colocar como link */
+    #logo
+    {
+        width: 150px;
+        height: 170px;
+        padding-top: 20px;
+        padding-left: 55px;
+        float: left;
+        
+    }
+
+    #menu_navegacao
+    {
+        width: 100%;
+        height: 200px;
+        display: table-cell;
+        vertical-align: middle;
+    }
+
+    #lista_menu_navegacao
+    {
+        width: 198,4px;	
+        display: flex;
+        text-transform: uppercase;
+        font-weight: bold;
+        flex-wrap: nowrap;
+        padding-left: 0;
+        padding-top: 0;
+    }
+
+    #lista_menu_navegacao li
+    {
+        font-size: 20px;
+        margin-left: 20px; 
+    }  
+
+    .link_menu
+    {
+        text-decoration: none;
+        color: antiquewhite;
+        text-align: center;
+        position: relative;
+    }
+
+   
+    .link_menu::after
+    {
+        top: 22px;
+        background-color: antiquewhite;
+        content: "";
+        height: 3px;
+        width: 0%;
+        position: absolute;
+        left: 0;
+        transition: all 0.8s;
+    }
+
+    .link_menu:hover::after
+    {
+        width: 100%;
+    }
+
+
+    .link_menu:hover
+    {
+        color: antiquewhite;
+    }
+
+
+    #section_inicio
+    {
+        width: 100%;
+        height: 500px;
+    }
+
+    #conteudo_body
+    {
+        width: 100%;
+        min-height: 600px;
+        padding: 10px;
+        background-color: rgba(0, 0, 0, 0.753);
+    }
+
+    #coluna_1
+    {
+        float: left;
+        padding-left: 5px;
+    } 
+
+    #coluna_2
+    {
+        float: right;
+        padding-left: 5px
+    } 
+
+    .coluna
+    {
+        min-height: 300px;
+        width: 48%;
+        padding: 5px;
+        text-align: justify;
+    }
+
+    #rodape
+    {
+        width: 942px;
+        height: 40px;
+        background-color: rgba(0, 0, 0, 0.719);
+        padding: 30px;
+    }
+
+   #creditos
+   {
+        text-align: center;
+        min-height: auto;
+        float: left;
+   }
+
+   #ref
+   {
+        text-align: center;
+        float: right;
+   }
+
+    #bt
+    {
+        float: right;
+    } 
+
+    .bt_saiba_mais
+    {
+            width: 140px;
+            height: 40px;
+            display: inline-block;
+            text-align: center;
+            line-height: 40px;
+            background-color: rgba(0, 0, 0, 0.692);
+            border-width: 0,1px;
+            border-style: solid;
+            border-color: antiquewhite;
+            color: white;
+            font-weight: bold;
+            margin-right: 5px;	
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) 
+{
+        .titulo
+    {
+        font-size: 50px;
+        text-transform: uppercase;
+        position: relative;
+        margin: 1px;
+        float: left;
+    }
+
+    .sub_titulo
+    {
+        font-size: 25px;
+        text-transform: uppercase;
+        position: relative;
+    }
+
+    #c_imagem
+    {
+        width: 100%;
+        height: 475px;
+    }
+
+    #borda
+    {
+        width: 200px;
+        height: 100px;
+    }
+
+    ul
+    {
+        text-decoration: none;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    #principal
+    {
+        width: 1200px;
+        height: auto;
+        margin: 0 auto;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    #topo
+    {
+        width: 100%;
+        height: 200px;
+        position: fixed;
+    }
+
+    /* Colocar como link */
+    #logo
+    {
+        width: 150px;
+        height: 170px;
+        padding-top: 20px;
+        padding-left: 130px;
+        float: left;
+        
+    }
+
+    #menu_navegacao
+    {
+        width: 100%;
+        height: 200px;
+        display: table-cell;
+        vertical-align: middle;
+    }
+
+    #lista_menu_navegacao
+    {
+        width: 200px;	
+        display: flex;
+        text-transform: uppercase;
+        font-weight: bold;
+        flex-wrap: nowrap;
+        padding-left: 0;
+        padding-top: 0;
+    }
+
+    #lista_menu_navegacao li
+    {
+        font-size: 20px;
+        margin-left: 20px; 
+    }  
+
+    .link_menu
+    {
+        text-decoration: none;
+        color: antiquewhite;
+        text-align: center;
+        position: relative;
+    }
+
+   
+    .link_menu::after
+    {
+        top: 22px;
+        background-color: antiquewhite;
+        content: "";
+        height: 3px;
+        width: 0%;
+        position: absolute;
+        left: 0;
+        transition: all 0.8s;
+    }
+
+    .link_menu:hover::after
+    {
+        width: 100%;
+    }
+
+
+    .link_menu:hover
+    {
+        color: antiquewhite;
+    }
+
+    #section_inicio
+    {
+        width: 100%;
+        height: 500px;
+    }
+
+    #conteudo_body
+    {
+        width: 1180px;
+        min-height: 500px;
+        padding: 10px;
+        background-color: rgba(0, 0, 0, 0.753);
+    }
+
+    #coluna_1
+    {
+        float: left;
+        padding-left: 5px;
+    } 
+
+    #coluna_2
+    {
+        float: right;
+        padding-left: 5px
+    } 
+
+    .coluna
+    {
+        min-height: 300px;
+        width: 48%;
+        padding: 5px;
+        text-align: justify;
+    }
+
+    #rodape
+    {
+        width: 1150px;
+        height: 40px;
+        background-color: rgba(0, 0, 0, 0.719);
+        padding: 30px;
+    }
+
+   #creditos
+   {
+        text-align: center;
+        min-height: auto;
+        float: left;
+   }
+
+   #ref
+   {
+        text-align: center;
+        float: right;
+   }
+
+    #bt
+    {
+        float: right;
+    } 
+
+    .bt_saiba_mais
+    {
+            width: 140px;
+            height: 40px;
+            display: inline-block;
+            text-align: center;
+            line-height: 40px;
+            background-color: rgba(0, 0, 0, 0.692);
+            border-width: 0,1px;
+            border-style: solid;
+            border-color: antiquewhite;
+            color: white;
+            font-weight: bold;
+            margin-right: 5px;	
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) 
+{
+    .titulo
+    {
+        font-size: 50px;
+        text-transform: uppercase;
+        position: relative;
+        margin: 1px;
+        float: left;
+    }
+
+    .sub_titulo
+    {
+        font-size: 25px;
+        text-transform: uppercase;
+        position: relative;
+    }
+
+    #c_imagem
+    {
+        width: 100%;
+        height: 475px;
+    }
+
+    #borda
+    {
+        width: 400px;
+        height: 100px;
+        padding-left: 80px;
+    }
+
+    ul
+    {
+        text-decoration: none;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    #principal
+    {
+        width: 1400px;
+        height: auto;
+        margin: 0 auto;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    #topo
+    {
+        width: 100%;
+        height: 200px;
+        position: fixed;
+    }
+
+    /* Colocar como link */
+    #logo
+    {
+        width: 150px;
+        height: 170px;
+        padding-top: 20px;
+        padding-left: 230px;
+        float: left;
+        
+    }
+
+    #menu_navegacao
+    {
+        width: 100%;
+        height: 200px;
+        display: table-cell;
+        vertical-align: middle;
+    }
+
+    #lista_menu_navegacao
+    {
+        width: 280px;	
+        display: flex;
+        text-transform: uppercase;
+        font-weight: bold;
+        flex-wrap: nowrap;
+        padding-left: 0;
+        padding-top: 0;
+    }
+
+    #lista_menu_navegacao li
+    {
+        font-size: 20px;
+        margin-left: 20px; 
+    }  
+
+    .link_menu
+    {
+        text-decoration: none;
+        color: antiquewhite;
+        text-align: center;
+        position: relative;
+    }
+
+   
+    .link_menu::after
+    {
+        top: 22px;
+        background-color: antiquewhite;
+        content: "";
+        height: 3px;
+        width: 0%;
+        position: absolute;
+        left: 0;
+        transition: all 0.8s;
+    }
+
+    .link_menu:hover::after
+    {
+        width: 100%;
+    }
+
+
+    .link_menu:hover
+    {
+        color: antiquewhite;
+    }
+
+
+    #section_inicio
+    {
+        width: 100%;
+        height: 500px;
+    }
+
+    #conteudo_body
+    {
+        width: 1380px;
+        min-height: 450px;
+        padding: 10px;
+        background-color: rgba(0, 0, 0, 0.753);
+    }
+
+    #coluna_1
+    {
+        float: left;
+        padding-left: 5px;
+    } 
+
+    #coluna_2
+    {
+        float: right;
+        padding-left: 5px
+    } 
+
+    .coluna
+    {
+        min-height: 300px;
+        width: 48%;
+        padding: 5px;
+        text-align: justify;
+    }
+
+    #rodape
+    {
+        width: 1350px;
+        height: 40px;
+        background-color: rgba(0, 0, 0, 0.719);
+        padding: 30px;
+    }
+
+   #creditos
+   {
+        text-align: center;
+        min-height: auto;
+        float: left;
+   }
+
+   #ref
+   {
+        text-align: center;
+        float: right;
+   }
+
+    #bt
+    {
+        padding-right: 50px;
+    } 
+
+    .bt_saiba_mais
+    {
+            width: 140px;
+            height: 40px;
+            display: inline-block;
+            text-align: center;
+            line-height: 40px;
+            background-color: rgba(0, 0, 0, 0.692);
+            border-width: 0,1px;
+            border-style: solid;
+            border-color: antiquewhite;
+            color: white;
+            font-weight: bold;
+            margin-right: 5px;	
+    }
+
+} 
